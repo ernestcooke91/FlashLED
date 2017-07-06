@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\obj\stm32f10x_gpio.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\ledflash.o"
+".\obj\main.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\obj\rtx_conf_cm.o"
+".\obj\startup_stm32f10x_md.o"
+".\obj\system_stm32f10x.o"
+--library_type=microlib --strict --scatter ".\Obj\Flash_LED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\Flash_LED.map" -o .\Obj\Flash_LED.axf
