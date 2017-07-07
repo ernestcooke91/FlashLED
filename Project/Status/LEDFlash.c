@@ -45,9 +45,9 @@
 // DEFINITIONS AND MACRO 
 //-----------------------------------------------------------------------------
 
-	#define LED_PIN				GPIO_Pin_5
-	#define LED_PORT			GPIOB
-	#define LED_CLK				RCC_APB2Periph_GPIOB
+	#define LED_PIN				GPIO_Pin_6
+	#define LED_PORT			GPIOC
+	#define LED_CLK				RCC_APB2Periph_GPIOC
 	#define FLASH_PERIOD	500
 
 //-----------------------------------------------------------------------------
@@ -61,7 +61,7 @@
 //-----------------------------------------------------------------------------
 // PROTOTYPES OF LOCAL FUNCTIONS
 //-----------------------------------------------------------------------------
-void Flash_GPIO(void);
+void LED_GPIO(void);
 
 //-----------------------------------------------------------------------------
 // LOCAL FUNCTIONS
