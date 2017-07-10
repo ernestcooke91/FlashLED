@@ -1,0 +1,1 @@
+This project flashes an output LED on the STM32F103 microcontroller
