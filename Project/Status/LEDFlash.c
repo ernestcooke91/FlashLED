@@ -49,7 +49,7 @@
 	#define LED_PORT			GPIOB
 	#define LED_CLK				RCC_APB2Periph_GPIOB
 	#define FLASH_PERIOD	500
-//hjksdhjkgfdhjkghdfg
+
 //-----------------------------------------------------------------------------
 // TYPEDEFS AND STRUCTURES 
 //-----------------------------------------------------------------------------
