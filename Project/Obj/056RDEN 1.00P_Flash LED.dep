@@ -1,116 +1,0 @@
-Dependencies for Project '056RDEN 1.00P', Target 'Flash LED': (DO NOT MODIFY !)
-F (.\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4D7A5136)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O1 --apcs=interwork -I ..\Project -I .\Applications -I .\Status -I .\STM32F10x_StdPeriph_Driver\inc -I .\STM32F10x_StdPeriph_Driver\src-IC:\FlashLED\Project\RTE\Device\STM32F103VB-IC:\FlashLED\Project\RTE\_Flash_LED-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DVECT_TAB_FLASH -DDEBUGGING-o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D789E24)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x593A6404)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x593A6406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F67738)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
-I (..\Project\stm32f10x_conf.h)(0x56FBD1C4)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D789E24)
-F (.\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4D789E24)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O1 --apcs=interwork -I ..\Project -I .\Applications -I .\Status -I .\STM32F10x_StdPeriph_Driver\inc -I .\STM32F10x_StdPeriph_Driver\src-IC:\FlashLED\Project\RTE\Device\STM32F103VB-IC:\FlashLED\Project\RTE\_Flash_LED-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DVECT_TAB_FLASH -DDEBUGGING-o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D789E24)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x593A6404)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x593A6406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F67738)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
-I (..\Project\stm32f10x_conf.h)(0x56FBD1C4)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D789E24)
-F (.\Status\LEDFlash.c)(0x595E2CAC)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O1 --apcs=interwork -I ..\Project -I .\Applications -I .\Status -I .\STM32F10x_StdPeriph_Driver\inc -I .\STM32F10x_StdPeriph_Driver\src-IC:\FlashLED\Project\RTE\Device\STM32F103VB-IC:\FlashLED\Project\RTE\_Flash_LED-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DVECT_TAB_FLASH -DDEBUGGING-o .\obj\ledflash.o --omf_browse .\obj\ledflash.crf --depend .\obj\ledflash.d)
-I (Status\LEDFlash.h)(0x595E2CAC)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x593A6404)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x593A6406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F67738)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
-I (..\Project\stm32f10x_conf.h)(0x56FBD1C4)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D789E24)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5825AA60)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F67738)
-F (.\Applications\main.c)(0x595E2CAC)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O1 --apcs=interwork -I ..\Project -I .\Applications -I .\Status -I .\STM32F10x_StdPeriph_Driver\inc -I .\STM32F10x_StdPeriph_Driver\src-IC:\FlashLED\Project\RTE\Device\STM32F103VB-IC:\FlashLED\Project\RTE\_Flash_LED-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DVECT_TAB_FLASH -DDEBUGGING-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5825AA60)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F67738)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F67738)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F67738)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x593A6404)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x593A6406)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
-I (..\Project\stm32f10x_conf.h)(0x56FBD1C4)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D789E24)
-I (.\Status\LEDFlash.h)(0x595E2CAC)
-F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x5825AA60)()
-F (RTE\CMSIS\RTX_Conf_CM.c)(0x58EDEA81)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O1 --apcs=interwork -I ..\Project -I .\Applications -I .\Status -I .\STM32F10x_StdPeriph_Driver\inc -I .\STM32F10x_StdPeriph_Driver\src-IC:\FlashLED\Project\RTE\Device\STM32F103VB-IC:\FlashLED\Project\RTE\_Flash_LED-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DVECT_TAB_FLASH -DDEBUGGING-o .\obj\rtx_conf_cm.o --omf_browse .\obj\rtx_conf_cm.crf --depend .\obj\rtx_conf_cm.d)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5825AA60)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F67738)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F67738)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5825AA60)
-F (RTE\Device\STM32F103VB\RTE_Device.h)(0x56161E7E)()
-F (RTE\Device\STM32F103VB\startup_stm32f10x_md.s)(0x4F1E9EBC)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\FlashLED\Project\RTE\Device\STM32F103VB-IC:\FlashLED\Project\RTE\_Flash_LED-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include--pd "__UVISION_VERSION SETA 522" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\list\startup_stm32f10x_md.lst --xref -o .\obj\startup_stm32f10x_md.o --depend .\obj\startup_stm32f10x_md.d)
-F (RTE\Device\STM32F103VB\system_stm32f10x.c)(0x4F1E9EBC)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O1 --apcs=interwork -I ..\Project -I .\Applications -I .\Status -I .\STM32F10x_StdPeriph_Driver\inc -I .\STM32F10x_StdPeriph_Driver\src-IC:\FlashLED\Project\RTE\Device\STM32F103VB-IC:\FlashLED\Project\RTE\_Flash_LED-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DVECT_TAB_FLASH -DDEBUGGING-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\stm32f10x.h)(0x593A6404)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm3.h)(0x593A6406)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F67738)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h)(0x5825AA5E)
-I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include\system_stm32f10x.h)(0x4F1E9EBC)
-I (..\Project\stm32f10x_conf.h)(0x56FBD1C4)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x4D789E24)
-I (.\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4D789E24)
